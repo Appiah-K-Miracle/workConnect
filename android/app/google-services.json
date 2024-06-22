@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "124769264797",
+    "project_id": "workconnect-d265b",
+    "storage_bucket": "workconnect-d265b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124769264797:android:d0cc2b72391043c20ae074",
+        "android_client_info": {
+          "package_name": "com.example.workconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124769264797-4ks832jehj40nbh1344ititouolct01r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8oCjW2zF5QrFRr42K_sI01i4xe_4UogI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124769264797-4ks832jehj40nbh1344ititouolct01r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "124769264797-k7tlldv75og42pdh25na43rh1s680pu1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.workconnect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

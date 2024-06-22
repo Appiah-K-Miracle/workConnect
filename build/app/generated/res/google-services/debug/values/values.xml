@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">124769264797-4ks832jehj40nbh1344ititouolct01r.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">124769264797</string>
+    <string name="google_api_key" translatable="false">AIzaSyD8oCjW2zF5QrFRr42K_sI01i4xe_4UogI</string>
+    <string name="google_app_id" translatable="false">1:124769264797:android:d0cc2b72391043c20ae074</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD8oCjW2zF5QrFRr42K_sI01i4xe_4UogI</string>
+    <string name="google_storage_bucket" translatable="false">workconnect-d265b.appspot.com</string>
+    <string name="project_id" translatable="false">workconnect-d265b</string>
+</resources>

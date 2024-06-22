@@ -1,0 +1,515 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.workconnect"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:7:5-79
+15-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:8:5-81
+16-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:9:5-85
+17-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:9:22-82
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:10:5-66
+18-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/debug/AndroidManifest.xml:10:22-64
+19
+20    <queries>
+20-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:36:5-47:11
+21
+22        <!-- If your app checks for SMS support -->
+23        <intent>
+23-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:38:3-41:12
+24            <action android:name="android.intent.action.VIEW" />
+24-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:5-57
+24-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:13-54
+25
+26            <data android:scheme="sms" />
+26-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:5-34
+26-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:11-31
+27        </intent>
+28        <!-- If your app checks for call support -->
+29        <intent>
+29-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:43:3-46:12
+30            <action android:name="android.intent.action.VIEW" />
+30-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:5-57
+30-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:13-54
+31
+32            <data android:scheme="tel" />
+32-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:5-34
+32-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:11-31
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+36-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+37-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+37-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+38-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:5-82
+39-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:22-79
+40
+41    <permission
+41-->[androidx.core:core:1.10.1] /home/blackai/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+42        android:name="com.example.workconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+42-->[androidx.core:core:1.10.1] /home/blackai/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+43        android:protectionLevel="signature" />
+43-->[androidx.core:core:1.10.1] /home/blackai/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+44
+45    <uses-permission android:name="com.example.workconnect.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+45-->[androidx.core:core:1.10.1] /home/blackai/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+45-->[androidx.core:core:1.10.1] /home/blackai/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+46
+47    <application
+48        android:name="android.app.Application"
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.10.1] /home/blackai/.gradle/caches/transforms-3/c66a84034fdee472d77a2fc15f5cce5d/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+52        android:label="workconnect" >
+53        <activity
+54            android:name="com.example.workconnect.MainActivity"
+55            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56            android:exported="true"
+57            android:hardwareAccelerated="true"
+58            android:launchMode="singleTop"
+59            android:theme="@style/LaunchTheme"
+60            android:windowSoftInputMode="adjustResize" >
+61
+62            <!--
+63                 Specifies an Android theme to apply to this Activity as soon as
+64                 the Android process has started. This theme is visible to the user
+65                 while the Flutter UI initializes. After that, this theme continues
+66                 to determine the Window background behind the Flutter UI.
+67            -->
+68            <meta-data
+69                android:name="io.flutter.embedding.android.NormalTheme"
+70                android:resource="@style/NormalTheme" />
+71
+72            <intent-filter>
+73                <action android:name="android.intent.action.MAIN" />
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+83            android:name="flutterEmbedding"
+84            android:value="2" />
+85
+86        <service
+86-->[:cloud_firestore] /home/blackai/Desktop/finalYearProject/workconnect/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+87            android:name="com.google.firebase.components.ComponentDiscoveryService"
+87-->[:cloud_firestore] /home/blackai/Desktop/finalYearProject/workconnect/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+88            android:directBootAware="true"
+88-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+89            android:exported="false" >
+89-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
+90            <meta-data
+90-->[:cloud_firestore] /home/blackai/Desktop/finalYearProject/workconnect/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+91-->[:cloud_firestore] /home/blackai/Desktop/finalYearProject/workconnect/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:cloud_firestore] /home/blackai/Desktop/finalYearProject/workconnect/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+93            <meta-data
+93-->[:firebase_auth] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+94-->[:firebase_auth] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_auth] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[:firebase_storage] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+97-->[:firebase_storage] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_storage] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+100-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+102            <meta-data
+102-->[:firebase_core] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+103-->[:firebase_core] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_core] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+106                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+106-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-firestore:24.7.0] /home/blackai/.gradle/caches/transforms-3/74efa1ca2c4693e57c933a082f7d16e6/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+109                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+109-->[com.google.firebase:firebase-firestore:24.7.0] /home/blackai/.gradle/caches/transforms-3/74efa1ca2c4693e57c933a082f7d16e6/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-firestore:24.7.0] /home/blackai/.gradle/caches/transforms-3/74efa1ca2c4693e57c933a082f7d16e6/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+112                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+112-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-storage:20.2.1] /home/blackai/.gradle/caches/transforms-3/debabf2aba1fc681e779f0071fb78fa9/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+115-->[com.google.firebase:firebase-storage:20.2.1] /home/blackai/.gradle/caches/transforms-3/debabf2aba1fc681e779f0071fb78fa9/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-storage:20.2.1] /home/blackai/.gradle/caches/transforms-3/debabf2aba1fc681e779f0071fb78fa9/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-iid:21.1.0] /home/blackai/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+118                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+118-->[com.google.firebase:firebase-iid:21.1.0] /home/blackai/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-iid:21.1.0] /home/blackai/.gradle/caches/transforms-3/2c87c4629024f4709268730fb7d0bc63/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-installations:17.1.3] /home/blackai/.gradle/caches/transforms-3/716dcdd69e4630c9d20bc2f93eef7d9e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+121                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+121-->[com.google.firebase:firebase-installations:17.1.3] /home/blackai/.gradle/caches/transforms-3/716dcdd69e4630c9d20bc2f93eef7d9e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-installations:17.1.3] /home/blackai/.gradle/caches/transforms-3/716dcdd69e4630c9d20bc2f93eef7d9e/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-datatransport:18.1.7] /home/blackai/.gradle/caches/transforms-3/6fe34c4caf8ad9c923bedeee155bcee3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+124                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+124-->[com.google.firebase:firebase-datatransport:18.1.7] /home/blackai/.gradle/caches/transforms-3/6fe34c4caf8ad9c923bedeee155bcee3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-datatransport:18.1.7] /home/blackai/.gradle/caches/transforms-3/6fe34c4caf8ad9c923bedeee155bcee3/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+126        </service>
+127        <service
+127-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+128            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+128-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+129            android:exported="false"
+129-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+130            android:permission="android.permission.BIND_JOB_SERVICE" />
+130-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+131        <service
+131-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+132-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+133            android:exported="false" >
+133-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+134            <intent-filter>
+134-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+135-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <receiver
+139-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+140            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+140-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+141            android:exported="true"
+141-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+143            <intent-filter>
+143-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+144-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+144-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+145            </intent-filter>
+146        </receiver>
+147
+148        <provider
+148-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+149            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+149-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+150            android:authorities="com.example.workconnect.flutterfirebasemessaginginitprovider"
+150-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+151            android:exported="false"
+151-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+152            android:initOrder="99" />
+152-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+153
+154        <service
+154-->[:geolocator_android] /home/blackai/Desktop/finalYearProject/workconnect/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+155            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+155-->[:geolocator_android] /home/blackai/Desktop/finalYearProject/workconnect/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-77
+156            android:enabled="true"
+156-->[:geolocator_android] /home/blackai/Desktop/finalYearProject/workconnect/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+157            android:exported="false"
+157-->[:geolocator_android] /home/blackai/Desktop/finalYearProject/workconnect/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+158            android:foregroundServiceType="location" />
+158-->[:geolocator_android] /home/blackai/Desktop/finalYearProject/workconnect/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+159
+160        <provider
+160-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+161            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+161-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+162            android:authorities="com.example.workconnect.flutter.image_provider"
+162-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+163            android:exported="false"
+163-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+164            android:grantUriPermissions="true" >
+164-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+165            <meta-data
+165-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+166                android:name="android.support.FILE_PROVIDER_PATHS"
+166-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+167                android:resource="@xml/flutter_image_picker_file_paths" />
+167-->[:image_picker_android] /home/blackai/Desktop/finalYearProject/workconnect/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+168        </provider>
+169
+170        <activity
+170-->[:url_launcher_android] /home/blackai/Desktop/finalYearProject/workconnect/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+171            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+171-->[:url_launcher_android] /home/blackai/Desktop/finalYearProject/workconnect/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+172            android:exported="false"
+172-->[:url_launcher_android] /home/blackai/Desktop/finalYearProject/workconnect/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+173            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+173-->[:url_launcher_android] /home/blackai/Desktop/finalYearProject/workconnect/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+174        <activity
+174-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+175-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+180            <intent-filter>
+180-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:5-57
+181-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:13-54
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+183-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+184-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+185
+186                <data
+186-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:5-34
+187                    android:host="firebase.auth"
+188                    android:path="/"
+189                    android:scheme="genericidp" />
+189-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:11-31
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+193-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:5-57
+199-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:39:13-54
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+202-->[com.google.firebase:firebase-auth:22.1.0] /home/blackai/.gradle/caches/transforms-3/5b287222d5d5b2ff00a50034b066c023/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+203
+204                <data
+204-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:5-34
+205                    android:host="firebase.auth"
+206                    android:path="/"
+207                    android:scheme="recaptcha" />
+207-->/home/blackai/Desktop/finalYearProject/workconnect/android/app/src/main/AndroidManifest.xml:40:11-31
+208            </intent-filter>
+209        </activity>
+210
+211        <receiver
+211-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+212            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+212-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+213            android:exported="true"
+213-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+214            android:permission="com.google.android.c2dm.permission.SEND" >
+214-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+215            <intent-filter>
+215-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+216                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+216-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+216-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+217            </intent-filter>
+218        </receiver>
+219        <!--
+220             FirebaseMessagingService performs security checks at runtime,
+221             but set to not exported to explicitly avoid allowing another app to call it.
+222        -->
+223        <service
+223-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+224            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+224-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+226            android:exported="false" >
+226-->[com.google.firebase:firebase-messaging:23.2.0] /home/blackai/.gradle/caches/transforms-3/fd054c393626171e0a99ab79f11a1122/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+227            <intent-filter android:priority="-500" >
+227-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+228                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+228-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+228-->[:firebase_messaging] /home/blackai/Desktop/finalYearProject/workconnect/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+229            </intent-filter>
+230        </service>
+231
+232        <activity
+232-->[com.google.android.gms:play-services-base:18.1.0] /home/blackai/.gradle/caches/transforms-3/13beb97871bacead349918ab2efad008/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+233            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+233-->[com.google.android.gms:play-services-base:18.1.0] /home/blackai/.gradle/caches/transforms-3/13beb97871bacead349918ab2efad008/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+234            android:exported="false"
+234-->[com.google.android.gms:play-services-base:18.1.0] /home/blackai/.gradle/caches/transforms-3/13beb97871bacead349918ab2efad008/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[com.google.android.gms:play-services-base:18.1.0] /home/blackai/.gradle/caches/transforms-3/13beb97871bacead349918ab2efad008/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+236
+237        <provider
+237-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+238            android:name="com.google.firebase.provider.FirebaseInitProvider"
+238-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+239            android:authorities="com.example.workconnect.firebaseinitprovider"
+239-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+240            android:directBootAware="true"
+240-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+241            android:exported="false"
+241-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+242            android:initOrder="100" />
+242-->[com.google.firebase:firebase-common:20.3.3] /home/blackai/.gradle/caches/transforms-3/9ad14aa1e6d50d814edf3dedd33f8508/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+243
+244        <meta-data
+244-->[com.google.android.gms:play-services-basement:18.1.0] /home/blackai/.gradle/caches/transforms-3/b98038a8bb5f558b05cc7fc73ca7ad87/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+245            android:name="com.google.android.gms.version"
+245-->[com.google.android.gms:play-services-basement:18.1.0] /home/blackai/.gradle/caches/transforms-3/b98038a8bb5f558b05cc7fc73ca7ad87/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+246            android:value="@integer/google_play_services_version" />
+246-->[com.google.android.gms:play-services-basement:18.1.0] /home/blackai/.gradle/caches/transforms-3/b98038a8bb5f558b05cc7fc73ca7ad87/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+247
+248        <uses-library
+248-->[androidx.window:window:1.0.0-beta04] /home/blackai/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+249            android:name="androidx.window.extensions"
+249-->[androidx.window:window:1.0.0-beta04] /home/blackai/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+250            android:required="false" />
+250-->[androidx.window:window:1.0.0-beta04] /home/blackai/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+251        <uses-library
+251-->[androidx.window:window:1.0.0-beta04] /home/blackai/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+252            android:name="androidx.window.sidecar"
+252-->[androidx.window:window:1.0.0-beta04] /home/blackai/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+253            android:required="false" />
+253-->[androidx.window:window:1.0.0-beta04] /home/blackai/.gradle/caches/transforms-3/fa8aad42c825af1f34f93ab9a34c8ecb/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+254
+255        <provider
+255-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+256            android:name="androidx.startup.InitializationProvider"
+256-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+257            android:authorities="com.example.workconnect.androidx-startup"
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+258            android:exported="false" >
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+259            <meta-data
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+260                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+261                android:value="androidx.startup" />
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+262        </provider>
+263
+264        <receiver
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+265            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+265-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+266            android:directBootAware="false"
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+267            android:enabled="true"
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+268            android:exported="true"
+268-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+269            android:permission="android.permission.DUMP" >
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+270            <intent-filter>
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+271                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+271-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+272            </intent-filter>
+273            <intent-filter>
+273-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+274                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+274-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+275            </intent-filter>
+276            <intent-filter>
+276-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+277                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+278            </intent-filter>
+279            <intent-filter>
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+280                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/blackai/.gradle/caches/transforms-3/fd4582ce04fab3ff2d77ff157c5e42e3/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+281            </intent-filter>
+282        </receiver>
+283
+284        <service
+284-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/blackai/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+285            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+285-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/blackai/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+286            android:exported="false" >
+286-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/blackai/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+287            <meta-data
+287-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/blackai/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+288                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+288-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/blackai/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+289                android:value="cct" />
+289-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/blackai/.gradle/caches/transforms-3/90a1264473ea7c3437b7d59add9eca5c/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+290        </service>
+291        <service
+291-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+292            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+292-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+293            android:exported="false"
+293-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+294            android:permission="android.permission.BIND_JOB_SERVICE" >
+294-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+295        </service>
+296
+297        <receiver
+297-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+298            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+298-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+299            android:exported="false" />
+299-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/blackai/.gradle/caches/transforms-3/b98e1a1618e0731e67b774290b6af269/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+300    </application>
+301
+302</manifest>
